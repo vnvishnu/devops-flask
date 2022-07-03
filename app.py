@@ -2,8 +2,6 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
-  return "<h1><center>Hello World app! Version 2</center><h1>"
 import socket
 def get_Host_name_IP():
 	try:
